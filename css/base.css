@@ -57,6 +57,15 @@ h1, h2, h3, .display{
   color: var(--green-dark);
 }
 
+/* Logo em imagem (assets/logo-lavie.png) — reaproveitado em vários lugares */
+.brand-logo{ height: 30px; width: auto; display: block; }
+
+/* Fundo clarinho atrás da logo quando ela fica sobre uma área escura (vinho) */
+.brand-logo-chip{
+  display: inline-flex; align-items: center;
+  background: var(--cream); padding: 6px 16px; border-radius: 999px;
+}
+
 /* Balão flutuante do WhatsApp — presente em todas as páginas */
 .whatsapp-float{
   position:fixed; right:24px; bottom:24px; z-index:999;
