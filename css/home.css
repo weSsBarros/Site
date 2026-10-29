@@ -94,6 +94,15 @@ nav .brand-logo{ height:36px; }
 .strip .wrap span::before{ content:"◆"; font-size:7px; color:var(--green); }
 .strip .wrap span:first-child::before{ display:none; }
 
+/* ---------- Grupo VIP (CTA) ---------- */
+.vip-cta{ background:var(--wine-deep); padding:40px 0; }
+.vip-cta-inner{ display:flex; align-items:center; justify-content:space-between; gap:28px; flex-wrap:wrap; }
+.vip-cta-kicker{ font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--green-soft); font-weight:700; margin-bottom:8px; }
+.vip-cta h2{ font-size:25px; color:var(--cream); }
+.vip-cta p{ margin-top:8px; font-size:14px; color:rgba(251,247,240,.85); max-width:46ch; }
+.btn-vip{ background:var(--cream); color:var(--wine-deep); white-space:nowrap; }
+.btn-vip:hover{ background:var(--white); transform:translateY(-2px); box-shadow:0 12px 26px rgba(0,0,0,.18); }
+
 /* ---------- Sobre ---------- */
 .sobre{ padding:104px 0; }
 .sobre .wrap{ display:grid; grid-template-columns:.85fr 1.15fr; gap:64px; align-items:center; }
@@ -164,4 +173,5 @@ footer .col a:hover{ color:var(--cream); }
   .foot-grid{ grid-template-columns:1fr; gap:30px; }
   .badge{ left:16px; }
   .collage{ grid-template-rows:220px 150px; }
+  .vip-cta-inner{ align-items:flex-start; }
 }
